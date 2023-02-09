@@ -13,5 +13,5 @@ export function calculateFontColor(hexColor: string, threshold?: number): string
     pRed * (red / 255) ** 2 + pGreen * (green / 255) ** 2 + pBlue * (blue / 255) ** 2,
   );
 
-  return contrast > pThreshold ? '#000000' : '#ffffff';
+  return ontrast > pThreshold ? '#000000' : '#ffffff';
 }
